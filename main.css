@@ -7,7 +7,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #eee;
 }
 
@@ -48,11 +48,11 @@ header{
     width: 100%;
     height:  100vh;
     position: fixed;
-    top: -100vh
+    top: -100vh;
     background-color: #16162d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    transition: ll 650ms cubic-bezier(1,0,0,1);
+    transition: all 650ms cubic-bezier(1,0,0,1);
 }
 
 .nav-list{
@@ -115,7 +115,7 @@ li{
     width: 50%;
 }
 
-.bar-start{
+.bar.start{
     transform-origin: right;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
