@@ -14,7 +14,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background: url('images/dl_4.png') no-repeat center fixed;
+    background: url('images/background_1.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -206,7 +206,7 @@ li{
 
 .landing-text h1{
     font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background: linear-gradient(to top, #ffdbd7, #a4172c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -304,15 +304,15 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid white;
+    background-color: turquoise;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-    color: #0d0405;
+    color: yellow;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
